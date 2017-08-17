@@ -1,0 +1,13 @@
+page-quotes {
+  .author {
+    color: #ccc;
+    text-align: right;
+    text-transform: uppercase;
+    padding: 0;
+    margin: 0;
+
+    &:before {
+      content: '-';
+    }
+  }
+}
